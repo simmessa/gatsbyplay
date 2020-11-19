@@ -2,7 +2,7 @@ import React from "react"
 import Header from "../components/header"
 
 export default function Home() {
-  return <div style={{ color: 'purple', fontSize: '1em'}}>
+  return <div style={{ margin: `3rem auto`, maxWidth: 600 }}>
     <Header headerText="Home" />
     <h1>Hello world of fucking Gatsby!</h1>
     <p>fuck the rest</p>
